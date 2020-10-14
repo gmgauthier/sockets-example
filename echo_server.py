@@ -29,7 +29,3 @@ class EchoServer:
             response = "Received: " + data
             conn.sendall(response.encode())
         conn.close()
-
-
-if __name__ == '__main__':
-    EchoServer()
